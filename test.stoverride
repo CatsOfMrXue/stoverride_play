@@ -1,0 +1,16 @@
+name: MNAI
+desc: MNAI接口抓包
+http:
+  mitm:
+    - '^https://www\.baidu\.com'
+  script:
+    - match: ^https://www\.baidu\.com
+      name: zhuabao
+      type: request 
+      require-body: true
+      timeout: 20
+      argument: ''
+script-providers:
+  zhuabao:
+    url: https://gist.github.com/CatsOfMrXue/07135089cb4fc68fca186d6502fc212d
+    interval: 86400 

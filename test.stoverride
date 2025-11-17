@@ -11,7 +11,7 @@ http:
       timeout: 20
       argument: ''
 tiles:
-  - name: liumeitijiance
+  - name: zhuabao
     icon: 'play.tv.fill'
     backgroundColor: '#FF2D55'  
 script-providers:

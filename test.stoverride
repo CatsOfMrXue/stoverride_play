@@ -2,9 +2,9 @@ name: test
 desc: 接口抓包测试
 http:
   mitm:
-    - '^https:\/\/www\.baidu\.com\/'
+    - 'www.baidu.com'
   script:
-    - match: ^https://www\.baidu\.com
+    - match: ^https:\/\/www\.baidu\.com\/
       name: zhuabao
       type: request 
       require-body: true

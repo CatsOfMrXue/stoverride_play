@@ -2,7 +2,7 @@ name: test
 desc: 接口抓包测试
 http:
   mitm:
-    - '^https://www\.baidu\.com'
+    - '^https:\/\/www\.baidu\.com\/'
   script:
     - match: ^https://www\.baidu\.com
       name: zhuabao

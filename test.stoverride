@@ -16,6 +16,6 @@ tiles:
     backgroundColor: '#FF2D55'  
 script-providers:
   zhuabao:
-    url: https://github.com/CatsOfMrXue/stoverride_play/raw/main/test.js
+    url: https://raw.githubusercontent.com/CatsOfMrXue/stoverride_play/main/test.js
   liumeitijiance:
     url: https://raw.githubusercontent.com/LucaLin233/Luca_Conf/main/Surge/JS/stream-all.js

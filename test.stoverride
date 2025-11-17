@@ -10,7 +10,12 @@ http:
       require-body: true
       timeout: 20
       argument: ''
+tiles:
+  - name: zhuabao
+    icon: 'play.tv.fill'
+    backgroundColor: '#FF2D55'  
 script-providers:
   zhuabao:
     url: https://github.com/CatsOfMrXue/stoverride_play/raw/main/test.js
-    interval: 86400 
+  liumeitijiance:
+    url: https://raw.githubusercontent.com/LucaLin233/Luca_Conf/main/Surge/JS/stream-all.js

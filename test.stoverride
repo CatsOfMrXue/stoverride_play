@@ -12,5 +12,5 @@ http:
       argument: ''
 script-providers:
   zhuabao:
-    url: https://gist.github.com/CatsOfMrXue/07135089cb4fc68fca186d6502fc212d
+    url: https://github.com/CatsOfMrXue/stoverride_play/raw/main/test.js
     interval: 86400 

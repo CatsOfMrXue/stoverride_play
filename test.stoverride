@@ -1,5 +1,5 @@
-name: MNAI
-desc: MNAI接口抓包
+name: test
+desc: 接口抓包测试
 http:
   mitm:
     - '^https://www\.baidu\.com'
